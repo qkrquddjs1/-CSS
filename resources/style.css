@@ -1,0 +1,80 @@
+@charset "UTF-8";   /* 인코딩 문자 깨짐 방지 */
+
+html {
+    font-size: 100%;
+}
+
+body {
+    color : #432;
+    line-height: 2.0;
+}
+
+a {
+    text-decoration: none;
+}
+
+img {
+    max-width: 100%;
+}
+
+.logo {
+    position: absolute;
+    top: 30px;
+    left: 20px;
+    width: 210px;
+    height: auto;
+}
+
+
+.main-nav {
+    list-style-type: none;
+    font-size: 90%;
+    text-transform: uppercase;
+    margin-top: 30px;
+    display: flex;
+}
+
+
+
+.main-nav li {
+    margin-left: 35px;
+}
+
+.main-nav a {
+    color: black;
+}
+
+.page-header {
+    display: flex;
+    justify-content: space-between;
+}
+
+.wrapper {
+    max-width: 1100px;
+    margin: 0 auto;
+    padding: 0 2%;
+}
+
+.half-circle {
+
+    width: 300px;
+    height: 600px;
+    border-radius: 0 300px 300px 0;
+    background-color: beige;
+    left: -150px;
+    bottom: -300px;
+}
+
+.cookingclass {
+    position: absolute;
+    top: 45%;
+    right: 7%;
+    transform: translate(0, -50%);
+ }
+
+
+
+
+
+
+
